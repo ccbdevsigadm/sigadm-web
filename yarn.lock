@@ -1425,13 +1425,14 @@
   resolved "https://registry.yarnpkg.com/@vue/preload-webpack-plugin/-/preload-webpack-plugin-1.1.1.tgz#18723530d304f443021da2292d6ec9502826104a"
   integrity sha512-8VCoJeeH8tCkzhkpfOkt+abALQkS11OIHhte5MBzYaKMTqK0A3ZAKEUVAffsOklhEv7t0yrQt696Opnu9oAx+w==
 
-"@vue/test-utils@1.0.0-beta.29":
-  version "1.0.0-beta.29"
-  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.0.0-beta.29.tgz#c942cf25e891cf081b6a03332b4ae1ef430726f0"
-  integrity sha512-yX4sxEIHh4M9yAbLA/ikpEnGKMNBCnoX98xE1RwxfhQVcn0MaXNSj1Qmac+ZydTj6VBSEVukchBogXBTwc+9iA==
+"@vue/test-utils@^1.0.0-beta.29":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.1.1.tgz#01c3e4b22ed2b85d2e276b34d32c8ac4b726e452"
+  integrity sha512-/32538ilZ9qSiu1gui7zfBn+IFy+zoTaQTZ1qiLfQXzZtaeAD23kJMrnqaoe2w8JzJoXuqHUl2ruuStG8rwFYQ==
   dependencies:
     dom-event-types "^1.0.0"
-    lodash "^4.17.4"
+    lodash "^4.17.15"
+    pretty "^2.0.0"
 
 "@vue/web-component-wrapper@^1.2.0":
   version "1.2.0"
@@ -5264,9 +5265,9 @@ hex-color-regex@^1.1.0:
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
 highlight.js@^9.6.0:
-  version "9.15.10"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.15.10.tgz#7b18ed75c90348c045eef9ed08ca1319a2219ad2"
-  integrity sha512-RoV7OkQm0T3os3Dd2VHLNMoaoDVx77Wygln3n9l5YV172XonWG6rgQD3XnF/BuFFZw9A0TJgmMSO8FEWQgvcXw==
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -8815,7 +8816,7 @@ pretty-format@^23.6.0:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
 
-pretty@2.0.0:
+pretty@2.0.0, pretty@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/pretty/-/pretty-2.0.0.tgz#adbc7960b7bbfe289a557dc5f737619a220d06a5"
   integrity sha1-rbx5YLe7/iiaVX3F9zdhmiINBqU=
